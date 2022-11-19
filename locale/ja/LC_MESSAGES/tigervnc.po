@@ -1,0 +1,1036 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR TigerVNC Team and many others (see README.rst)
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
+"POT-Creation-Date: 2021-09-08 09:19+0200\n"
+"PO-Revision-Date: 2022-11-19 21:29+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2\n"
+
+#: vncviewer/CConn.cxx:103
+#, c-format
+msgid "Connected to socket %s"
+msgstr "ソケットに接続 %s"
+
+#: vncviewer/CConn.cxx:110
+#, c-format
+msgid "Connected to host %s port %d"
+msgstr "ホストに接続 %s ポート:%d"
+
+#: vncviewer/CConn.cxx:114
+#, c-format
+msgid ""
+"Failed to connect to \"%s\":\n"
+"\n"
+"%s"
+msgstr ""
+"\"%s\"への接続に失敗しました。\n"
+"\n"
+"%s"
+
+#: vncviewer/CConn.cxx:159
+#, c-format
+msgid "Desktop name: %.80s"
+msgstr "デスクトップ名: %.80s"
+
+#: vncviewer/CConn.cxx:164
+#, c-format
+msgid "Host: %.80s port: %d"
+msgstr "ホスト: %.80s ポート: %d"
+
+#: vncviewer/CConn.cxx:169
+#, c-format
+msgid "Size: %d x %d"
+msgstr "サイズ: %d x %d"
+
+#: vncviewer/CConn.cxx:177
+#, c-format
+msgid "Pixel format: %s"
+msgstr "ピクセルフォーマット: %s"
+
+#: vncviewer/CConn.cxx:184
+#, c-format
+msgid "(server default %s)"
+msgstr "(サーバーデフォルト %s)"
+
+#: vncviewer/CConn.cxx:189
+#, c-format
+msgid "Requested encoding: %s"
+msgstr "要求されたエンコーディング:%s"
+
+#: vncviewer/CConn.cxx:194
+#, c-format
+msgid "Last used encoding: %s"
+msgstr "最後に使用されたエンコーディング:%s"
+
+#: vncviewer/CConn.cxx:199
+#, c-format
+msgid "Line speed estimate: %d kbit/s"
+msgstr "回線速度 推定: %d kbit/s"
+
+#: vncviewer/CConn.cxx:204
+#, c-format
+msgid "Protocol version: %d.%d"
+msgstr "プロトコルバージョン: %d.%d"
+
+#: vncviewer/CConn.cxx:209
+#, c-format
+msgid "Security method: %s"
+msgstr "セキュリティ方式: %s"
+
+#: vncviewer/CConn.cxx:271 vncviewer/CConn.cxx:273
+msgid ""
+"The connection was dropped by the server before the session could be "
+"established."
+msgstr "セッションを確立する前に、サーバーによって接続が切断されました。"
+
+#: vncviewer/CConn.cxx:280 vncviewer/Viewport.cxx:575
+#: vncviewer/Viewport.cxx:673 vncviewer/Viewport.cxx:776
+#: vncviewer/Viewport.cxx:791 vncviewer/Viewport.cxx:802
+#: vncviewer/Viewport.cxx:830 vncviewer/Viewport.cxx:901
+#: vncviewer/Viewport.cxx:937
+#, c-format
+msgid ""
+"An unexpected error occurred when communicating with the server:\n"
+"\n"
+"%s"
+msgstr ""
+"サーバーとの通信中に予期しないエラーが発生しました:\n"
+"\n"
+"%s"
+
+#: vncviewer/CConn.cxx:333
+#, c-format
+msgid "SetDesktopSize failed: %d"
+msgstr "デスクトップサイズ設定失敗: %d"
+
+#: vncviewer/CConn.cxx:405
+msgid "Invalid SetColourMapEntries from server!"
+msgstr "サーバーからのカラーマップエントリー設定が無効です!"
+
+#: vncviewer/CConn.cxx:513
+#, c-format
+msgid "Throughput %d kbit/s - changing to quality %d"
+msgstr "スループット:%d kbit/s -クオリティを%dに変更"
+
+#: vncviewer/CConn.cxx:535
+#, c-format
+msgid "Throughput %d kbit/s - full color is now enabled"
+msgstr "スループット:%d kbit/s -フルカラー有効"
+
+#: vncviewer/CConn.cxx:538
+#, c-format
+msgid "Throughput %d kbit/s - full color is now disabled"
+msgstr "スループット:%d kbit/s -フルカラー無効"
+
+#: vncviewer/CConn.cxx:564
+#, c-format
+msgid "Using pixel format %s"
+msgstr "ピクセルフォーマット %s  使用"
+
+#: vncviewer/DesktopWindow.cxx:143
+msgid "Invalid geometry specified!"
+msgstr "無効なジオメトリが指定されました!"
+
+#: vncviewer/DesktopWindow.cxx:616
+msgid "Adjusting window size to avoid accidental full screen request"
+msgstr "偶発的なフルスクリーンリクエストを回避するためのウィンドウサイズの調整"
+
+#: vncviewer/DesktopWindow.cxx:667
+#, c-format
+msgid "Press %s to open the context menu"
+msgstr "%sを押してコンテキストメニューを開きます"
+
+#: vncviewer/DesktopWindow.cxx:1030 vncviewer/DesktopWindow.cxx:1038
+#: vncviewer/DesktopWindow.cxx:1058
+msgid "Failure grabbing keyboard"
+msgstr "キーボードの取得に失敗しました"
+
+#: vncviewer/DesktopWindow.cxx:1352
+msgid "Invalid screen layout computed for resize request!"
+msgstr "サイズ変更リクエストに対して無効な画面レイアウトが算出されました!"
+
+#: vncviewer/EmulateMB.cxx:226 vncviewer/EmulateMB.cxx:289
+msgid "Invalid state for 3 button emulation"
+msgstr "3ボタンエミュレーションの状態が無効です"
+
+#: vncviewer/MonitorArrangement.cxx:403
+msgid "Failed to get monitor name because X11 RandR could not be found"
+msgstr "X11 RandRが見つからなかったため、モニター名を取得できませんでした"
+
+#: vncviewer/MonitorArrangement.cxx:409
+#: vncviewer/MonitorIndicesParameter.cxx:47
+#: vncviewer/MonitorIndicesParameter.cxx:100
+msgid "Failed to get system monitor configuration"
+msgstr "システムモニター構成の取得に失敗しました"
+
+#: vncviewer/MonitorArrangement.cxx:417
+#, c-format
+msgid "Failed to get information about CRTC %d"
+msgstr "CRTC %dに関する情報を取得できませんでした"
+
+#: vncviewer/MonitorArrangement.cxx:430
+#, c-format
+msgid "Failed to get information about output %d for CRTC %d"
+msgstr "出力 %d (CRTC %d)に関する情報を取得できませんでした"
+
+#: vncviewer/MonitorIndicesParameter.cxx:78
+#, c-format
+msgid "Invalid configuration specified for %s"
+msgstr "%sに指定された構成が無効です"
+
+#: vncviewer/MonitorIndicesParameter.cxx:86
+#, c-format
+msgid "Monitor index %d does not exist"
+msgstr "モニターインデックス %d が存在しません"
+
+#: vncviewer/MonitorIndicesParameter.cxx:164
+#: vncviewer/MonitorIndicesParameter.cxx:184
+#, c-format
+msgid "Invalid monitor index '%s'"
+msgstr "不正なモニターインデックス '%s'"
+
+#: vncviewer/MonitorIndicesParameter.cxx:172
+#, c-format
+msgid "Unexpected character '%c'"
+msgstr "不正な文字 '%c'"
+
+#: vncviewer/OptionsDialog.cxx:58
+msgid "VNC Viewer: Connection Options"
+msgstr "VNC Viewer: 接続オプション"
+
+#: vncviewer/OptionsDialog.cxx:84 vncviewer/ServerDialog.cxx:109
+#: vncviewer/vncviewer.cxx:418
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: vncviewer/OptionsDialog.cxx:89 vncviewer/vncviewer.cxx:417
+msgid "OK"
+msgstr "OK"
+
+#: vncviewer/OptionsDialog.cxx:447
+msgid "Compression"
+msgstr "圧縮"
+
+#: vncviewer/OptionsDialog.cxx:463
+msgid "Auto select"
+msgstr "自動選択"
+
+#: vncviewer/OptionsDialog.cxx:475
+msgid "Preferred encoding"
+msgstr "優先エンコーディング"
+
+#: vncviewer/OptionsDialog.cxx:523
+msgid "Color level"
+msgstr "カラーレベル"
+
+#: vncviewer/OptionsDialog.cxx:534
+msgid "Full"
+msgstr "フル"
+
+#: vncviewer/OptionsDialog.cxx:541
+msgid "Medium"
+msgstr "中"
+
+#: vncviewer/OptionsDialog.cxx:548
+msgid "Low"
+msgstr "低い"
+
+#: vncviewer/OptionsDialog.cxx:555
+msgid "Very low"
+msgstr "最低"
+
+#: vncviewer/OptionsDialog.cxx:572
+msgid "Custom compression level:"
+msgstr "カスタム圧縮レベル:"
+
+#: vncviewer/OptionsDialog.cxx:578
+msgid "level (0=fast, 9=best)"
+msgstr "レベル(0=速い,9=最高)"
+
+#: vncviewer/OptionsDialog.cxx:585
+msgid "Allow JPEG compression:"
+msgstr "JPEG圧縮を許可する:"
+
+#: vncviewer/OptionsDialog.cxx:591
+msgid "quality (0=poor, 9=best)"
+msgstr "品質(0=悪い,9=最高)"
+
+#: vncviewer/OptionsDialog.cxx:602
+msgid "Security"
+msgstr "セキュリティ"
+
+#: vncviewer/OptionsDialog.cxx:617
+msgid "Encryption"
+msgstr "暗号化"
+
+#: vncviewer/OptionsDialog.cxx:628 vncviewer/OptionsDialog.cxx:681
+#: vncviewer/OptionsDialog.cxx:767
+msgid "None"
+msgstr "なし"
+
+#: vncviewer/OptionsDialog.cxx:634
+msgid "TLS with anonymous certificates"
+msgstr "匿名証明書を使用したTLS"
+
+#: vncviewer/OptionsDialog.cxx:640
+msgid "TLS with X509 certificates"
+msgstr "X509証明書を使用したTLS"
+
+#: vncviewer/OptionsDialog.cxx:647
+msgid "Path to X509 CA certificate"
+msgstr "X509CA証明書へのパス"
+
+#: vncviewer/OptionsDialog.cxx:654
+msgid "Path to X509 CRL file"
+msgstr "X509CRLファイルへのパス"
+
+#: vncviewer/OptionsDialog.cxx:670
+msgid "Authentication"
+msgstr "認証"
+
+#: vncviewer/OptionsDialog.cxx:687
+msgid "Standard VNC (insecure without encryption)"
+msgstr "標準VNC(暗号化なしでは安全ではありません)"
+
+#: vncviewer/OptionsDialog.cxx:693
+msgid "Username and password (insecure without encryption)"
+msgstr "ユーザー名とパスワード(暗号化なしでは安全ではありません)"
+
+#: vncviewer/OptionsDialog.cxx:712
+msgid "Input"
+msgstr "入力"
+
+#: vncviewer/OptionsDialog.cxx:720
+msgid "View only (ignore mouse and keyboard)"
+msgstr "表示のみ(マウスとキーボードは無視)"
+
+#: vncviewer/OptionsDialog.cxx:726
+msgid "Emulate middle mouse button"
+msgstr "マウスの中ボタンをエミュレートする"
+
+#: vncviewer/OptionsDialog.cxx:732
+msgid "Accept clipboard from server"
+msgstr "サーバーからクリップボードへの受信"
+
+#: vncviewer/OptionsDialog.cxx:740
+msgid "Also set primary selection"
+msgstr "一次選択も設定"
+
+#: vncviewer/OptionsDialog.cxx:747
+msgid "Send clipboard to server"
+msgstr "クリップボードをサーバーに送信"
+
+#: vncviewer/OptionsDialog.cxx:755
+msgid "Send primary selection as clipboard"
+msgstr "一次選択をクリップボードとして送信"
+
+#: vncviewer/OptionsDialog.cxx:762
+msgid "Pass system keys directly to server (full screen)"
+msgstr "システムキーをサーバーに直接渡す(フルスクリーン)"
+
+#: vncviewer/OptionsDialog.cxx:765
+msgid "Menu key"
+msgstr "メニューキー"
+
+#: vncviewer/OptionsDialog.cxx:782
+msgid "Screen"
+msgstr "スクリーン"
+
+#: vncviewer/OptionsDialog.cxx:790
+msgid "Resize remote session on connect"
+msgstr "接続時にリモートセッションのサイズを変更"
+
+#: vncviewer/OptionsDialog.cxx:803
+msgid "Resize remote session to the local window"
+msgstr "リモートセッションのサイズを自ウィンドウサイズに変更"
+
+#: vncviewer/OptionsDialog.cxx:809
+msgid "Enable full-screen"
+msgstr "フルスクリーンモードを有効"
+
+#: vncviewer/OptionsDialog.cxx:825
+msgid "Use current monitor"
+msgstr "現在のモニターを使用する"
+
+#: vncviewer/OptionsDialog.cxx:833
+msgid "Use all monitors"
+msgstr "すべてのモニターを使用する"
+
+#: vncviewer/OptionsDialog.cxx:841
+msgid "Use selected monitor(s)"
+msgstr "選択したモニターを使用する"
+
+#: vncviewer/OptionsDialog.cxx:867
+msgid "Misc."
+msgstr "その他."
+
+#: vncviewer/OptionsDialog.cxx:875
+msgid "Shared (don't disconnect other viewers)"
+msgstr "共有(他のビューアを切断しないでください)"
+
+#: vncviewer/OptionsDialog.cxx:881
+msgid "Ask to reconnect on connection errors"
+msgstr "接続エラー時に再接続するか尋ねる"
+
+#: vncviewer/OptionsDialog.cxx:887
+msgid "Show dot when no cursor"
+msgstr "カーソルがないときにドットを表示する"
+
+#: vncviewer/ServerDialog.cxx:57
+msgid "VNC Viewer: Connection Details"
+msgstr "VNCビューア:接続の詳細"
+
+#: vncviewer/ServerDialog.cxx:64 vncviewer/ServerDialog.cxx:69
+msgid "VNC server:"
+msgstr "VNCサーバー:"
+
+#: vncviewer/ServerDialog.cxx:82
+msgid "Options..."
+msgstr "オプション..."
+
+#: vncviewer/ServerDialog.cxx:87
+msgid "Load..."
+msgstr "読み込み..."
+
+#: vncviewer/ServerDialog.cxx:92
+msgid "Save As..."
+msgstr "保存..."
+
+#: vncviewer/ServerDialog.cxx:104
+msgid "About..."
+msgstr "情報..."
+
+#: vncviewer/ServerDialog.cxx:114
+msgid "Connect"
+msgstr "接続"
+
+#: vncviewer/ServerDialog.cxx:140
+#, c-format
+msgid ""
+"Unable to load the server history:\n"
+"\n"
+"%s"
+msgstr ""
+"サーバーの履歴を読み込むことができません。\n"
+"\n"
+"%s"
+
+#: vncviewer/ServerDialog.cxx:164 vncviewer/ServerDialog.cxx:200
+msgid "TigerVNC configuration (*.tigervnc)"
+msgstr "TigerVNC 構成(*.tigervnc)"
+
+#: vncviewer/ServerDialog.cxx:165
+msgid "Select a TigerVNC configuration file"
+msgstr "TigerVNC構成ファイルを選択"
+
+#: vncviewer/ServerDialog.cxx:186 vncviewer/vncviewer.cxx:553
+#, c-format
+msgid ""
+"Unable to load the specified configuration file:\n"
+"\n"
+"%s"
+msgstr ""
+"構成ファイルの読み込みに失敗しました。:\n"
+"\n"
+"%s"
+
+#: vncviewer/ServerDialog.cxx:201
+msgid "Save the TigerVNC configuration to file"
+msgstr "TigerVNC構成ファイルを保存"
+
+#: vncviewer/ServerDialog.cxx:226
+#, c-format
+msgid "%s already exists. Do you want to overwrite?"
+msgstr "%sは既に存在します。上書きしますか?"
+
+#: vncviewer/ServerDialog.cxx:227 vncviewer/vncviewer.cxx:415
+msgid "No"
+msgstr "いいえ"
+
+#: vncviewer/ServerDialog.cxx:227
+msgid "Overwrite"
+msgstr "上書き"
+
+#: vncviewer/ServerDialog.cxx:243
+#, c-format
+msgid ""
+"Unable to save the specified configuration file:\n"
+"\n"
+"%s"
+msgstr ""
+"構成ファイルの保存に失敗しました。\n"
+"\n"
+"%s"
+
+#: vncviewer/ServerDialog.cxx:277
+#, c-format
+msgid ""
+"Unable to save the default configuration:\n"
+"\n"
+"%s"
+msgstr ""
+"デフォルト設定を保存できません。\n"
+"\n"
+"%s"
+
+#: vncviewer/ServerDialog.cxx:290
+#, c-format
+msgid ""
+"Unable to save the server history:\n"
+"\n"
+"%s"
+msgstr ""
+"サーバーの履歴を保存できません。\n"
+"\n"
+"%s"
+
+#: vncviewer/ServerDialog.cxx:305 vncviewer/ServerDialog.cxx:368
+#: vncviewer/parameters.cxx:628 vncviewer/parameters.cxx:733
+#: vncviewer/vncviewer.cxx:460
+msgid "Could not obtain the home directory path"
+msgstr "ホームディレクトリパスを取得できませんでした"
+
+#: vncviewer/ServerDialog.cxx:318 vncviewer/ServerDialog.cxx:377
+#: vncviewer/parameters.cxx:639 vncviewer/parameters.cxx:746
+#, c-format
+msgid "Could not open \"%s\": %s"
+msgstr "開けません \"%s\": %s"
+
+#: vncviewer/ServerDialog.cxx:333 vncviewer/ServerDialog.cxx:339
+#: vncviewer/parameters.cxx:760 vncviewer/parameters.cxx:766
+#: vncviewer/parameters.cxx:797 vncviewer/parameters.cxx:826
+#: vncviewer/parameters.cxx:832
+#, c-format
+msgid "Failed to read line %d in file %s: %s"
+msgstr "%d行が読み取れません。ファイル%s: %s"
+
+#: vncviewer/ServerDialog.cxx:340 vncviewer/parameters.cxx:767
+msgid "Line too long"
+msgstr "行が長すぎます"
+
+#: vncviewer/UserDialog.cxx:98
+msgid "Opening password file failed"
+msgstr "パスワードファイルを開くことができませんでした"
+
+#: vncviewer/UserDialog.cxx:118
+msgid "VNC authentication"
+msgstr "VNC認証"
+
+#: vncviewer/UserDialog.cxx:125
+msgid "This connection is secure"
+msgstr "この接続は安全です"
+
+#: vncviewer/UserDialog.cxx:129
+msgid "This connection is not secure"
+msgstr "この接続は安全ではありません"
+
+#: vncviewer/UserDialog.cxx:146
+msgid "Username:"
+msgstr "ユーザー名:"
+
+#: vncviewer/UserDialog.cxx:159
+msgid "Password:"
+msgstr "パスワード:"
+
+#: vncviewer/UserDialog.cxx:198
+msgid "Authentication cancelled"
+msgstr "認証がキャンセルされました"
+
+#: vncviewer/Viewport.cxx:390
+#, c-format
+msgid "Failed to update keyboard LED state: %lu"
+msgstr "キーボードLED状態の更新に失敗しました: %lu"
+
+#: vncviewer/Viewport.cxx:396 vncviewer/Viewport.cxx:402
+#, c-format
+msgid "Failed to update keyboard LED state: %d"
+msgstr "キーボードLED状態の更新に失敗しました: %d"
+
+#: vncviewer/Viewport.cxx:432
+msgid "Failed to update keyboard LED state"
+msgstr "キーボードLED状態の更新に失敗しました"
+
+#: vncviewer/Viewport.cxx:459 vncviewer/Viewport.cxx:467
+#: vncviewer/Viewport.cxx:484
+#, c-format
+msgid "Failed to get keyboard LED state: %d"
+msgstr "キーボードLED状態の取得に失敗しました:%d"
+
+#: vncviewer/Viewport.cxx:854
+msgid "No key code specified on key press"
+msgstr "押されたキーのキーコードが指定されていません"
+
+#: vncviewer/Viewport.cxx:1017
+#, c-format
+msgid "No scan code for extended virtual key 0x%02x"
+msgstr "拡張仮想キー0x%02xのスキャンコードはありません"
+
+#: vncviewer/Viewport.cxx:1019
+#, c-format
+msgid "No scan code for virtual key 0x%02x"
+msgstr "仮想キー0x%02xのスキャンコードはありません"
+
+#: vncviewer/Viewport.cxx:1025
+#, c-format
+msgid "Invalid scan code 0x%02x"
+msgstr "無効なスキャンコード0x%02x"
+
+#: vncviewer/Viewport.cxx:1055
+#, c-format
+msgid "No symbol for extended virtual key 0x%02x"
+msgstr "拡張仮想キー0x%02xのシンボルはありません"
+
+#: vncviewer/Viewport.cxx:1057
+#, c-format
+msgid "No symbol for virtual key 0x%02x"
+msgstr "仮想キー0x%02xのシンボルはありません"
+
+#: vncviewer/Viewport.cxx:1157
+#, c-format
+msgid "No symbol for key code 0x%02x (in the current state)"
+msgstr "キーコード0x%02xのシンボルなし(現在の状態)"
+
+#: vncviewer/Viewport.cxx:1190
+#, c-format
+msgid "No symbol for key code %d (in the current state)"
+msgstr "キーコード %dのシンボルなし(現在の状態)"
+
+#: vncviewer/Viewport.cxx:1250
+msgctxt "ContextMenu|"
+msgid "Dis&connect"
+msgstr "切断(&C)"
+
+#: vncviewer/Viewport.cxx:1253
+msgctxt "ContextMenu|"
+msgid "&Full screen"
+msgstr "全画面(&F)"
+
+#: vncviewer/Viewport.cxx:1256
+msgctxt "ContextMenu|"
+msgid "Minimi&ze"
+msgstr "最小化(&Z)"
+
+#: vncviewer/Viewport.cxx:1258
+msgctxt "ContextMenu|"
+msgid "Resize &window to session"
+msgstr "リサイズ(&W)"
+
+#: vncviewer/Viewport.cxx:1263
+msgctxt "ContextMenu|"
+msgid "&Ctrl"
+msgstr "&Ctrl"
+
+#: vncviewer/Viewport.cxx:1266
+msgctxt "ContextMenu|"
+msgid "&Alt"
+msgstr "&Alt"
+
+#: vncviewer/Viewport.cxx:1272
+#, c-format
+msgctxt "ContextMenu|"
+msgid "Send %s"
+msgstr "%s 送信"
+
+#: vncviewer/Viewport.cxx:1278
+msgctxt "ContextMenu|"
+msgid "Send Ctrl-Alt-&Del"
+msgstr "Ctrl-Alt-&Del 送信"
+
+#: vncviewer/Viewport.cxx:1281
+msgctxt "ContextMenu|"
+msgid "&Refresh screen"
+msgstr "画面のリフレッシュ(&R)"
+
+#: vncviewer/Viewport.cxx:1284
+msgctxt "ContextMenu|"
+msgid "&Options..."
+msgstr "オプション...(&O)"
+
+#: vncviewer/Viewport.cxx:1286
+msgctxt "ContextMenu|"
+msgid "Connection &info..."
+msgstr "接続情報...(&I)"
+
+#: vncviewer/Viewport.cxx:1288
+msgctxt "ContextMenu|"
+msgid "About &TigerVNC viewer..."
+msgstr "TigerVNC viewerについて(&T)"
+
+#: vncviewer/Viewport.cxx:1377
+msgid "VNC connection info"
+msgstr "VNC接続情報"
+
+#: vncviewer/Win32TouchHandler.cxx:47
+msgid "Window is registered for touch instead of gestures"
+msgstr "ジェスチャではなくタッチ用にウィンドウが登録されています"
+
+#: vncviewer/Win32TouchHandler.cxx:81
+#, c-format
+msgid "Failed to set gesture configuration (error 0x%x)"
+msgstr "ジェスチャー設定に失敗しました(エラー 0x%x)"
+
+#: vncviewer/Win32TouchHandler.cxx:93
+#, c-format
+msgid "Failed to get gesture information (error 0x%x)"
+msgstr "ジェスチャー情報の取得に失敗しました(エラー 0x%x)"
+
+#: vncviewer/Win32TouchHandler.cxx:358
+#, c-format
+msgid "Invalid mouse button %d, must be a number between 1 and 7."
+msgstr "%d は、無効なマウス ボタン です。1から7までの数字にしてください。"
+
+#: vncviewer/Win32TouchHandler.cxx:423
+#, c-format
+msgid "Unhandled key 0x%x - can't generate keyboard event."
+msgstr "ハンドルされていないキー 0x%x - キーボード イベントを生成できません。"
+
+#: vncviewer/XInputTouchHandler.cxx:102 vncviewer/touch.cxx:107
+#, c-format
+msgid "Unable to get X Input 2 event mask for window 0x%08lx"
+msgstr "ウィンドウ 0x%08lx の X input 2 イベントマスクを取得できません"
+
+#: vncviewer/XInputTouchHandler.cxx:104
+#, c-format
+msgid "Window 0x%08lx has no X Input 2 event mask"
+msgstr "ウィンドウ 0x%08lx には X Input 2 イベントマスクがありません"
+
+#: vncviewer/XInputTouchHandler.cxx:112 vncviewer/touch.cxx:114
+#, c-format
+msgid "Window 0x%08lx has more than one X Input 2 event mask"
+msgstr "ウィンドウ 0x%08lx には複数の X Input 2 イベントマスクがあります"
+
+#: vncviewer/XInputTouchHandler.cxx:143
+#, c-format
+msgid "Failure grabbing device %i"
+msgstr "デバイス %i の取得に失敗しました"
+
+#: vncviewer/parameters.cxx:301 vncviewer/parameters.cxx:326
+#: vncviewer/parameters.cxx:343 vncviewer/parameters.cxx:383
+#: vncviewer/parameters.cxx:403
+msgid "The name of the parameter is too large"
+msgstr "パラメータ名が長すぎます"
+
+#: vncviewer/parameters.cxx:305 vncviewer/parameters.cxx:310
+#: vncviewer/parameters.cxx:361
+msgid "The parameter is too large"
+msgstr "パラメータが大きすぎます"
+
+#: vncviewer/parameters.cxx:368 vncviewer/parameters.cxx:689
+#: vncviewer/parameters.cxx:811
+msgid "Invalid format or too large value"
+msgstr "形式が無効であるか、値が大きすぎます"
+
+#: vncviewer/parameters.cxx:422 vncviewer/parameters.cxx:453
+msgid "Failed to create registry key"
+msgstr "レジストリキーが生成できません"
+
+#: vncviewer/parameters.cxx:441 vncviewer/parameters.cxx:496
+#: vncviewer/parameters.cxx:538 vncviewer/parameters.cxx:605
+msgid "Failed to close registry key"
+msgstr "レジストリキーを閉じれません"
+
+#: vncviewer/parameters.cxx:459 vncviewer/parameters.cxx:476
+#: vncviewer/parameters.cxx:489 vncviewer/parameters.cxx:647
+#: vncviewer/parameters.cxx:657 vncviewer/parameters.cxx:668
+#, c-format
+msgid "Failed to save \"%s\": %s"
+msgstr "保存失敗。\"%s\": %s"
+
+#: vncviewer/parameters.cxx:472 vncviewer/parameters.cxx:560
+#: vncviewer/parameters.cxx:670 vncviewer/parameters.cxx:707
+msgid "Unknown parameter type"
+msgstr "不明なパラメータタイプ"
+
+#: vncviewer/parameters.cxx:511 vncviewer/parameters.cxx:583
+msgid "Failed to open registry key"
+msgstr "レジストリキーが開けません"
+
+#: vncviewer/parameters.cxx:528
+#, c-format
+msgid "Failed to read server history entry %d: %s"
+msgstr "サーバー履歴エントリ %d の読み取りに失敗しました: %s"
+
+#: vncviewer/parameters.cxx:564 vncviewer/parameters.cxx:594
+#, c-format
+msgid "Failed to read parameter \"%s\": %s"
+msgstr "パラメータの読み込み失敗。\"%s\":%s"
+
+#: vncviewer/parameters.cxx:648 vncviewer/parameters.cxx:659
+msgid "Could not encode parameter"
+msgstr "パラメータをエンコードできませんでした"
+
+#: vncviewer/parameters.cxx:776
+#, c-format
+msgid "Configuration file %s is in an invalid format"
+msgstr "設定ファイル %s は無効な形式です"
+
+#: vncviewer/parameters.cxx:798
+msgid "Invalid format"
+msgstr "無効な形式"
+
+#: vncviewer/parameters.cxx:833
+msgid "Unknown parameter"
+msgstr "未知のパラメータ"
+
+#: vncviewer/touch.cxx:75
+#, c-format
+msgid "Got message (0x%x) for an unhandled window"
+msgstr "ハンドルされていないウィンドウメッセージ (0x%x) を受け取りました"
+
+#: vncviewer/touch.cxx:138 vncviewer/touch.cxx:160
+#, c-format
+msgid "Invalid window 0x%08lx specified for pointer grab"
+msgstr "ポインタグラブに無効なウィンドウ 0x%08lx が指定されました"
+
+#: vncviewer/touch.cxx:183 vncviewer/touch.cxx:184
+#, c-format
+msgid "Failed to create touch handler: %s"
+msgstr "タッチハンドラの作成に失敗しました: %s"
+
+#: vncviewer/touch.cxx:188
+#, c-format
+msgid "Couldn't attach event handler to window (error 0x%x)"
+msgstr "イベントハンドラーをウィンドウに接続できませんでした (エラー 0x%x)"
+
+#: vncviewer/touch.cxx:212
+msgid "Failed to get event data for X Input event"
+msgstr "X Inputイベントのイベント データの取得に失敗しました"
+
+#: vncviewer/touch.cxx:225
+msgid "X Input event for unknown window"
+msgstr "未知のウィンドウの X Inputイベント"
+
+#: vncviewer/touch.cxx:251
+msgid "X Input extension not available."
+msgstr "X Input拡張機能は利用できません。"
+
+#: vncviewer/touch.cxx:258
+msgid "X Input 2 (or newer) is not available."
+msgstr "X Input 2 (またはそれ以降) は使用できません"
+
+#: vncviewer/touch.cxx:263
+msgid ""
+"X Input 2.2 (or newer) is not available. Touch gestures will not be "
+"supported."
+msgstr ""
+"X Input 2.2 (またはそれ以降) は使用できません。 タッチジェスチャはサポートさ"
+"れません。"
+
+#: vncviewer/vncviewer.cxx:106
+#, c-format
+msgid ""
+"TigerVNC Viewer %d-bit v%s\n"
+"Built on: %s\n"
+"Copyright (C) 1999-%d TigerVNC Team and many others (see README.rst)\n"
+"See https://www.tigervnc.org for information on TigerVNC."
+msgstr ""
+
+#: vncviewer/vncviewer.cxx:172
+msgid "About TigerVNC Viewer"
+msgstr "TigerVNCビューアについて"
+
+#: vncviewer/vncviewer.cxx:193
+msgid "Internal FLTK error. Exiting."
+msgstr "内部FLTKエラー。終了します。"
+
+#: vncviewer/vncviewer.cxx:212
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Attempt to reconnect?"
+msgstr ""
+"%s\n"
+"\n"
+"再接続しますか?"
+
+#: vncviewer/vncviewer.cxx:243 vncviewer/vncviewer.cxx:255
+#, c-format
+msgid "Error starting new TigerVNC Viewer: %s"
+msgstr "新しいTigerVNCビューアの起動中にエラーが発生しました:%s"
+
+#: vncviewer/vncviewer.cxx:264
+#, c-format
+msgid "Termination signal %d has been received. TigerVNC Viewer will now exit."
+msgstr "終了信号%dを受信しました。TigerVNCビューアを終了します。"
+
+#: vncviewer/vncviewer.cxx:407 vncviewer/vncviewer.desktop.in.in:3
+msgid "TigerVNC Viewer"
+msgstr "TigerVNCビューア"
+
+#: vncviewer/vncviewer.cxx:416
+msgid "Yes"
+msgstr "はい"
+
+#: vncviewer/vncviewer.cxx:419
+msgid "Close"
+msgstr "閉じる"
+
+#: vncviewer/vncviewer.cxx:424
+msgid "About"
+msgstr "情報"
+
+#: vncviewer/vncviewer.cxx:427
+msgid "Hide"
+msgstr "隠す"
+
+#: vncviewer/vncviewer.cxx:430
+msgid "Quit"
+msgstr "終了"
+
+#: vncviewer/vncviewer.cxx:434
+msgid "Services"
+msgstr "サービス"
+
+#: vncviewer/vncviewer.cxx:435
+msgid "Hide Others"
+msgstr "他を隠す"
+
+#: vncviewer/vncviewer.cxx:436
+msgid "Show All"
+msgstr "全て表示"
+
+#: vncviewer/vncviewer.cxx:445
+msgctxt "SysMenu|"
+msgid "&File"
+msgstr "ファイル(&F)"
+
+#: vncviewer/vncviewer.cxx:448
+msgctxt "SysMenu|File|"
+msgid "&New Connection"
+msgstr "新しい接続(&N)"
+
+#: vncviewer/vncviewer.cxx:464
+#, c-format
+msgid "Could not create VNC home directory: %s."
+msgstr "VNCホームディレクトリ%sを作成できませんでした."
+
+#: vncviewer/vncviewer.cxx:563
+msgid ""
+"FullScreenAllMonitors is deprecated, set FullScreenMode to 'all' instead"
+msgstr ""
+"FullScreenAllMonitorsは非推奨です。代わりに、FullScreenModeを'all'に設定して"
+"ください。"
+
+#. TRANSLATORS: "Parameters" are command line arguments, or settings
+#. from a file or the Windows registry.
+#: vncviewer/vncviewer.cxx:769 vncviewer/vncviewer.cxx:770
+msgid "Parameters -listen and -via are incompatible"
+msgstr "パラメータ-listenと-viaは互換性がありません"
+
+#: vncviewer/vncviewer.cxx:784
+#, c-format
+msgid "Listening on port %d"
+msgstr "ポート%dでリッスンしています"
+
+#: vncviewer/vncviewer.cxx:817
+#, c-format
+msgid ""
+"Failure waiting for incoming VNC connection:\n"
+"\n"
+"%s"
+msgstr ""
+"VNC接続の待機に失敗しました:\n"
+"\n"
+"%s"
+
+#: vncviewer/vncviewer.desktop.in.in:4
+msgid "Remote Desktop Viewer"
+msgstr "リモートデスクトップビューア"
+
+#: vncviewer/vncviewer.desktop.in.in:5
+msgid "Connect to VNC server and display remote desktop"
+msgstr "VNCサーバーに接続し、リモートデスクトップを表示します"
+
+#~ msgid "Enabling continuous updates"
+#~ msgstr "継続的な更新の有効化"
+
+#~ msgid "disabled"
+#~ msgstr "無効"
+
+#~ msgid "enabled"
+#~ msgstr "有効"
+
+#, c-format
+#~ msgid "Using %s encoding"
+#~ msgstr "%s エンコーディング使用"
+
+#~ msgid "Full (all available colors)"
+#~ msgstr "高(利用可能なすべての色)"
+
+#~ msgid "Medium (256 colors)"
+#~ msgstr "中(256色)"
+
+#~ msgid "Low (64 colors)"
+#~ msgstr "低(64色)"
+
+#~ msgid "Very low (8 colors)"
+#~ msgstr "最低(8色)"
+
+#~ msgid "level (1=fast, 6=best [4-6 are rarely useful])"
+#~ msgstr "レベル(1=速い,6 =最高[4-6は役に立たない])"
+
+#~ msgid "Full-screen mode"
+#~ msgstr "全画面モード"
+
+#~ msgctxt "ContextMenu|"
+#~ msgid "E&xit viewer"
+#~ msgstr "終了(&X)"
+
+#~ msgctxt "ContextMenu|"
+#~ msgid "Dismiss &menu"
+#~ msgstr "メニューを閉じる(&M)"
+
+#, c-format
+#~ msgid "Failed to write parameter %s of type %s to the registry: %ld"
+#~ msgstr "タイプ%sのパラメータ%sをレジストリに書き込めませんでした:%ld"
+
+#, c-format
+#~ msgid "The name of the parameter %s was too large to read from the registry"
+#~ msgstr ""
+#~ "パラメータ%sの名前が長すぎて、レジストリから読み取ることができませんでした"
+
+#, c-format
+#~ msgid "The parameter %s was too large to read from the registry"
+#~ msgstr ""
+#~ "パラメータ%sが長すぎて、レジストリから読み取ることができませんでした"
+
+#~ msgid ""
+#~ "Failed to write configuration file, can't obtain home directory path."
+#~ msgstr ""
+#~ "設定ファイルの書き込みに失敗しました。ホームディレクトリパスを取得できませ"
+#~ "ん。"
+
+#, c-format
+#~ msgid "Failed to write configuration file, can't open %s: %s"
+#~ msgstr "設定ファイルの書き込みに失敗しました。開けません %s: %s"
+
+#~ msgid "Failed to read configuration file, can't obtain home directory path."
+#~ msgstr ""
+#~ "設定ファイルの読み取りに失敗しました。ホームディレクトリパスを取得できませ"
+#~ "ん。"
+
+#, c-format
+#~ msgid "Unknown parameter %s on line %d in file %s"
+#~ msgstr "未知のパラメータ%s  %d行目 ファイル %s"
+
+#~ msgid ""
+#~ "Could not create VNC home directory: can't obtain home directory path."
+#~ msgstr ""
+#~ "VNCホームディレクトリを作成できませんでした:ホームディレクトリパスを取得で"
+#~ "きません。"
+
+#~ msgid "tigervnc"
+#~ msgstr "tigervnc"
