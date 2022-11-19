@@ -1,2 +1,2 @@
-# TigerVNCViewer-
+# TigerVNCViewer-Japanese
 TigerVNCViewerの日本語ローカライズ
